@@ -15,6 +15,7 @@ print(type(a2), a2)  # ==><class 'int'> 12
 print(type(a3), a3)  # ==><class 'float'> 1.23
 print(type(a4), a4)  # ==><class 'complex'> (1+3j)
 
+
 print("-------------------------------------")
 # 关于Number的一些运算
 # /运算结果为小数
@@ -58,5 +59,6 @@ print("abcde"[-1])  # ==>e
 
 # 切片str[m:n],m默认为0，n默认为len(str)
 print("abcde"[1:3])  # ==>bc
+
 
 
