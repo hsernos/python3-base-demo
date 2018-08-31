@@ -15,7 +15,6 @@ print(type(a2), a2)  # ==><class 'int'> 12
 print(type(a3), a3)  # ==><class 'float'> 1.23
 print(type(a4), a4)  # ==><class 'complex'> (1+3j)
 
-
 print("-------------------------------------")
 # 关于Number的一些运算
 # /运算结果为小数
