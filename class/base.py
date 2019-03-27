@@ -328,20 +328,20 @@ p = Point(3, 4)
 
 class Exam(object):
     def __init__(self, score):
-        self._score = score
+        self.__score = score
 
     @property  # get属性
     def score(self):
-        return self._score
+        return self.__score
 
     @score.setter  # set属性
     def score(self, val):
         if val < 0:
-            self._score = 0
+            self.__score = 0
         elif val > 100:
-            self._score = 100
+            self.__score = 100
         else:
-            self._score = val
+            self.__score = val
 
 e = Exam(60)
 print(e.score)  # ==>60
